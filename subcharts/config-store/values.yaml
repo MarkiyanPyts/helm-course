@@ -132,3 +132,5 @@ postgresql:
       userPasswordKey: password
   fullnameOverride: postgresql-db
 
+demo-sub-chart:
+  customValue: "Hello from parent subchart"
