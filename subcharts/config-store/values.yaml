@@ -134,3 +134,6 @@ postgresql:
 
 demo-sub-chart:
   customValue: "Hello from parent subchart"
+
+global:
+  defaultStorageClass: "my-custom-storage-class"
