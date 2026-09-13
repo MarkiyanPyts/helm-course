@@ -130,13 +130,4 @@ postgresql:
     existingSecret: postgres-creds
     secretKeys:
       userPasswordKey: password
-  fullnameOverride: postgresql-db
-
-demo-sub-chart:
-  customValue: "Hello from parent subchart"
-
-global:
-  defaultStorageClass: "my-custom-storage-class"
-
-tags: 
-  database: true
+    fullnameOverride: postgresql-db
